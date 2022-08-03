@@ -1,0 +1,19 @@
+{% autoescape off %}
+
+Hi {{user.username}}
+
+
+Please use the link below to verify your account.
+
+http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+Here is your username : {{user.username}}
+And your password : {{password}}
+
+Please reset your password.
+
+
+Best Regards,
+
+TechTrioz Team
+{% endautoescape %}

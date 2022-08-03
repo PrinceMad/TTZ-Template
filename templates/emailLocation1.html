@@ -1,0 +1,44 @@
+{% autoescape off %}
+
+<p style="color: black; font-weight:700;">Dear {{name}} ({{cusId}}),</p>
+
+    <p style="color: black;">We have received a parcel for you today at our UK warehouse. The details are as follows:</p>
+    <div style="border: 1px solid black; width: 350px; margin-left:50px;">
+        <p style="padding-left:10px; color: black;"> HAWB (Freshlux Parcel Tracking Number): <span style=" padding-left:10px;"> {{hawb}} </span></p>
+        <p style="border-top: 1px solid black; padding-left:10px; color: black;">  Description:  <span style=" padding-left:10px;"> {{description}} </span></p>
+        <p style="border-top: 1px solid black; padding-left:10px; color: black;">  Value: <span style=" padding-left:10px;"> {{value}} &#163;</span></p>
+        <p style="border-top: 1px solid black; padding-left:10px; color: black;">  Courier Company:  <span style="padding-left:10px;"> USPS </span></p>
+        <p style="border-top: 1px solid black; padding-left:10px; color: black;">  Supplier Tracking Number: <span style=" padding-left:10px;"> {{tracking}}  </span></p>
+        <p style="border-top: 1px solid black; padding-left:10px; color: black;">  Weight of the Parcel: <span style=" padding-left:10px;"> {{weight}} Kg </span></p>
+        
+    </div>
+    
+
+    
+   
+   
+    
+    
+    
+
+<p style="color: black;">Note: Damaged goods must be notified within 24 hours of collection of parcel and photographic proof of packaging and damage to goods must be submitted at the same time before any claim can be assessed. All claim will be assessed on an individual basis.</p>
+<p style="color: black;">To track your parcel online:</p>
+<p style="color: black;">Prohibited items: </p>
+<p style="color: black;">Terms & Conditions: </p>
+<p style="color: black;">To find out more please visit our website: </p>
+
+<p style="color: black;">If you have any questions, please do not hesitate to contact us.</p>
+
+<p style="color: black;">Regards,</p>
+<p style="color: black; margin-top: -30px">Freshlux Team</p>
+ 
+
+ 
+
+
+
+
+
+
+{% endautoescape %}
+
