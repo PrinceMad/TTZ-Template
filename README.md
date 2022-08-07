@@ -1,2 +1,2 @@
 # TTZ_Template
- sceleton for project
+Skeleton for project
